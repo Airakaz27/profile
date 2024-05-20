@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Syne", sans-serif;
+    font-size: 100%;
+    background-color: rgb(245, 180, 0);
+    color: #575F7D;
+  }
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.card {
+    position: relative;
+    background-color: #ffffff;
+    margin: auto;
+    width: 400px;
+    box-shadow: 15px 15px black;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+.card-content {
+  padding: 20px 30px;
+
+}
+
+#juventus {
+  position: absolute;
+  right: 50px;
+  top: 190px;
+  border-radius: 20%;
+  border: 3px solid rgb(255, 255, 255);
+  width: 70px;
+  height: auto;
+}
+
+#zizou {
+   width: 400px;
+   height: auto;
+   padding: 20px;
+   border-radius: 28px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: rgb(245, 180, 0)
+}
+
+.infos {
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.1) ;
+}
+
+strong {
+  font-size: 22px;
+  color: rgb(245, 180, 0)
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 400px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
