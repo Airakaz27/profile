@@ -5,26 +5,26 @@
 }
 
 body {
-    font-family: "Syne", sans-serif;
-    font-size: 100%;
-    background-color: rgb(245, 180, 0);
-    color: #222327;
+  font-family: "Syne", sans-serif;
+  font-size: 100%;
+  background-color: rgb(245, 180, 0);
+  color: #222327;
   }
 
 .container {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
 .card {
-    position: relative;
-    background-color: #ffffff;
-    margin: auto;
-    width: 400px;
-    box-shadow: 15px 15px #222327;
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1px solid #222327;
+  position: relative;
+  background-color: #ffffff;
+  margin: auto;
+  width: 400px;
+  box-shadow: 15px 15px #222327;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #222327;
   }
 
 .card-content {
@@ -64,36 +64,36 @@ h2 {
 }
 
 .infos {
-    padding-top: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-top: 1px solid rgba(0, 0, 0, 0.1) ;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.1) ;
 }
 
 strong {
-    font-size: 22px;
-    color: rgb(245, 180, 0)
+  font-size: 22px;
+  color: rgb(245, 180, 0)
 }
 
 .social {
-    align-self: end;
+  align-self: end;
 }
 
 .fa-brands {
-    margin: 0px 5px;
-    color: #222327;
+  margin: 0px 5px;
+  color: #222327;
 }
 
 .fa-brands:hover {
-    color: rgb(245, 180, 0);
-    transition: 0.2s ease-out;
+  color: rgb(245, 180, 0);
+  transition: 0.2s ease-out;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 
